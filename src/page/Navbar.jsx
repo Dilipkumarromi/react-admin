@@ -25,10 +25,7 @@ const Navbar = () => {
           >
             <div className="nk-sidebar-element nk-sidebar-head">
               <div className="nk-sidebar-brand">
-                <a
-                  href="/#"
-                  className="logo-link nk-sidebar-logo"
-                >
+                <a href="/#" className="logo-link nk-sidebar-logo">
                   <img
                     className="logo-light logo-img"
                     src="../images/logo.png"
@@ -796,29 +793,29 @@ const Navbar = () => {
                       <div className="row g-gs">
                         <div className="col-xxl-6">
                           <div className="row g-gs">
-                            <StudentList/>
-                            <Income/>
+                            <StudentList />
+                            <Income />
                           </div>
                         </div>
-                        <CourseCategory/>
-                        <CategoryWiseIncome/>
-                        <Top_Instructors/>
-                        <CentreWiseStudentChart/>
-                       <ActiveStudent/>
-                       <TotalCertificate/>
-                      <Student/>
-                      <InvoiceList/>
-                      <InvoiceDetails/>
-                      <InvoicePrint/>
-                      <EnrollmentList/>
-                      <EnrollmentStudent/>
+                        <CourseCategory />
+                        <CategoryWiseIncome />
+                        <Top_Instructors />
+                        <CentreWiseStudentChart />
+                        <ActiveStudent />
+                        <TotalCertificate />
+                        <Student />
+                        <InvoiceList />
+                        <InvoiceDetails />
+                        <InvoicePrint />
+                        <EnrollmentList />
+                        <EnrollmentStudent />
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
+
             <div className="nk-footer">
               <div className="container-fluid">
                 <div className="nk-footer-wrap">

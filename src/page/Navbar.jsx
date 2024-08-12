@@ -11,6 +11,8 @@ import InvoiceDetails from "./Invoice/InvoiceDetails";
 import InvoicePrint from "./Invoice/InvoicePrint";
 import EnrollmentList from "./Enrollment/EnrollmentList";
 import EnrollmentStudent from "./Enrollment/EnrollmentStudent";
+import ActiveStudent from "./ActiveStudent";
+import TotalCertificate from "./TotalCertificate";
 
 const Navbar = () => {
   return (
@@ -802,70 +804,8 @@ const Navbar = () => {
                         <CategoryWiseIncome/>
                         <Top_Instructors/>
                         <CentreWiseStudentChart/>
-                        <div className="col-md-6 col-xxl-8">
-                          <div className="card h-100">
-                            <div className="card-inner">
-                              <div className="card-title-group align-start pb-3 g-2">
-                                <div className="card-title card-title-sm">
-                                  <h6 className="title">Active Students</h6>
-                                  <p>
-                                    How do your students visited in the time.
-                                  </p>
-                                </div>
-                                <div className="card-tools">
-                                  <em
-                                    className="card-hint icon ni ni-help"
-                                    data-bs-toggle="tooltip"
-                                    data-bs-placement="left"
-                                    title="Users of this month"
-                                  ></em>
-                                </div>
-                              </div>
-                              <div className="analytic-au">
-                                <div className="analytic-data-group analytic-au-group g-3">
-                                  <div className="analytic-data analytic-au-data">
-                                    <div className="title">Monthly</div>
-                                    <div className="amount">9.28K</div>
-                                    <div className="change up">
-                                      <em className="icon ni ni-arrow-long-up"></em>
-                                      4.63%
-                                    </div>
-                                  </div>
-                                  <div className="analytic-data analytic-au-data">
-                                    <div className="title">Weekly</div>
-                                    <div className="amount">2.69K</div>
-                                    <div className="change down">
-                                      <em className="icon ni ni-arrow-long-down"></em>
-                                      1.92%
-                                    </div>
-                                  </div>
-                                  <div className="analytic-data analytic-au-data">
-                                    <div className="title">Daily (Avg)</div>
-                                    <div className="amount">0.94K</div>
-                                    <div className="change up">
-                                      <em className="icon ni ni-arrow-long-up"></em>
-                                      3.45%
-                                    </div>
-                                  </div>
-                                </div>
-                                <div className="analytic-au-ck">
-                                  <canvas
-                                    className="analytics-au-chart"
-                                    id="analyticAuData"
-                                  ></canvas>
-                                </div>
-                                <div className="chart-label-group">
-                                  <div className="chart-label">
-                                    01 Jan, 2020
-                                  </div>
-                                  <div className="chart-label">
-                                    30 Jan, 2020
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                       <ActiveStudent/>
+                       <TotalCertificate/>
                       <Student/>
                       <InvoiceList/>
                       <InvoiceDetails/>

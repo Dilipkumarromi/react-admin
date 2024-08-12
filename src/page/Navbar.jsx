@@ -6,6 +6,11 @@ import CategoryWiseIncome from "./CategoryWiseIncome";
 import Top_Instructors from "./Top_Instructors";
 import CentreWiseStudentChart from "./CentreWiseStudentChart";
 import Student from "./Student/Student";
+import InvoiceList from "./Invoice/InvoiceList";
+import InvoiceDetails from "./Invoice/InvoiceDetails";
+import InvoicePrint from "./Invoice/InvoicePrint";
+import EnrollmentList from "./Enrollment/EnrollmentList";
+import EnrollmentStudent from "./Enrollment/EnrollmentStudent";
 
 const Navbar = () => {
   return (
@@ -862,6 +867,11 @@ const Navbar = () => {
                           </div>
                         </div>
                       <Student/>
+                      <InvoiceList/>
+                      <InvoiceDetails/>
+                      <InvoicePrint/>
+                      <EnrollmentList/>
+                      <EnrollmentStudent/>
                       </div>
                     </div>
                   </div>

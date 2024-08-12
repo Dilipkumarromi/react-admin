@@ -5,6 +5,7 @@ import CourseCategory from "./CourseCategory";
 import CategoryWiseIncome from "./CategoryWiseIncome";
 import Top_Instructors from "./Top_Instructors";
 import CentreWiseStudentChart from "./CentreWiseStudentChart";
+import Student from "./Student/Student";
 
 const Navbar = () => {
   return (
@@ -860,13 +861,14 @@ const Navbar = () => {
                             </div>
                           </div>
                         </div>
-                       <p1>Traffic</p1>
+                      <Student/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            
             <div className="nk-footer">
               <div className="container-fluid">
                 <div className="nk-footer-wrap">
